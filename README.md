@@ -1,33 +1,33 @@
-# Rock vs Mine
+# Diabetic Prediction
 
 ## Description
-Rock vs Mine is a machine learning-based project that classifies whether an object is a rock or a mine based on sonar data. The model is trained using supervised learning techniques and is designed for applications in underwater object detection.
+Diabetic Prediction is a machine learning project designed to predict whether a patient has diabetes based on medical features such as glucose levels, blood pressure, and BMI. The model is trained on a dataset using supervised learning techniques and aims to assist in early diagnosis and prevention.
 
 ## Installation
-To run this project, follow these steps:
+To set up the project, follow these steps:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/rock-vs-mine.git
+   git clone https://github.com/yourusername/diabetic-prediction.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd rock-vs-mine
+   cd diabetic-prediction
    ```
-3. Install dependencies:
+3. Install required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
 ## Usage
-To use the trained model for prediction, run the following command:
+To make predictions using the trained model, run:
 ```bash
-python predict.py --input data/sample_input.csv
+python predict.py --input data/sample_patient.csv
 ```
 
-For training the model, use:
+To train the model using the dataset, run:
 ```bash
-python train.py --dataset data/sonar.csv
+python train.py --dataset data/diabetes.csv
 ```
 
 ## Contributors
@@ -36,3 +36,5 @@ python train.py --dataset data/sonar.csv
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
+
+
